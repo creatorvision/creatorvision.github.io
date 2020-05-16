@@ -2,7 +2,7 @@
 	<html>
 		<head>
 			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
+			<!-- Main stylesheet -->
 			<link rel="stylesheet" href="/assets/css/styles.css">
             <!-- Global site tag (gtag.js) - Google Analytics -->
             <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142549937-1"></script>
@@ -16,15 +16,9 @@
 		<body>
 			{% include navigation.html %}
 			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-                <ul>
-                    <li><a href="mailto:creatorvision03@gmail.com">email</a></li>
-                    <li><a href="https://github.com/creatorvision" target="_blank">github.com/creatorvision</a></li>
-                </ul>
-            </footer>
+				{{content}}
+			</div>
+			<!-- /.container -->
+			{% include footer.html %}
 		</body>
 	</html>

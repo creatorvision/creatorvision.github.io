@@ -1,8 +1,11 @@
-- name: Home
-  link: /
-- name: About
-  link: /about.html
-- name: Resume
-  link: /resume.html
-- name: Blog
-  link: http://infinitespeak.wordpress.com/
+defaults:
+nav:
+  - m:
+      name: Home
+      link: /
+  - m:
+      name: Resume
+      link: /resume.html
+  - m:
+      name: Blog
+      link: http://infinitespeak.wordpress.com/

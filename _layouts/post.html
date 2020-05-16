@@ -1,9 +1,14 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<script type="text/javascript" src="/assets/js/onLoad.js"></script>
 
-<div class="post">
+<div class="post" data-gr-c-s-loaded="true">
+  <!-- Post Header -->
+  <header class="banner">
+    <span class="background"></span>
+    <h1>{{page.title}}</h1>
+  </header>
+  <p class="meta">Published On: {{ page.date | date_to_string }}</p>
   {{ content }}
 </div>

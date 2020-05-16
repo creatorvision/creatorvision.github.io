@@ -1,0 +1,62 @@
+.post{
+  .body.loaded {
+    opacity: 1;
+    transition: 1s opacity;
+  }  
+}
+/* Default banner */
+.post{
+  .banner {
+    position: relative;
+    width: 90%;
+    height: 24rem;
+    padding: 0 5%;
+    overflow: hidden;
+    backface-visibility: hidden;
+  }
+}
+
+/* Default image container */
+.post{
+  .banner .background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transform: translate3d(0,0,0) scale(1.25);
+    // background: black url(https://www.biotage.com/uploads/photos/2013_web_banners5.jpg) no-repeat center center; 
+    background-size: cover;
+  }
+}
+
+/* Loaded image container */
+
+.loaded .banner .background {
+    transform: scale(1);
+    transition: 8.5s transform;
+}  
+
+/* Other stuff */
+.post {
+  .banner h1 {
+    color: #FFF;
+    margin: 0;
+    line-height: 24rem;
+    text-transform: uppercase;
+    text-shadow: 0.1em 0.1em .5rem black;
+  }
+}
+
+.post{
+  main { 
+    width: 90%;
+    margin: 2rem auto;
+  }
+  main p { margin: 0 0 2rem 0; }
+}
+
+.meta{
+  font-size: 0.75em;
+}
