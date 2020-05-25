@@ -9,3 +9,6 @@ nav:
   - m:
       name: Blog
       link: http://infinitespeak.wordpress.com/
+  - m:
+      name: About
+      link: /about.html
