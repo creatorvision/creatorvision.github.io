@@ -12,9 +12,10 @@ post:
       photo: 'https://www.clicdata.com/wp-content/uploads/2018/08/10.jpg'
       author: 'Shivang Gupta'
       tags: 
-        - value: 'KPI'
-        - value: 'E-COMMERCE'
+        - value: 'WHY'
+        - value: 'BUSINESS'
         - value: 'SDE'
+        - value: 'ANALYTICS'
   - p:
       title: Be A Catalyst Not Just Analyst
       tag_line: Creating sustainable impact
