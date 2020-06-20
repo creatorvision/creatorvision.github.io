@@ -1,0 +1,27 @@
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+{% for item in site.data.posts.post %}
+<div {% if item.p.type == 'odd' %}class="blog-card"{% endif %} {% if item.p.type == 'even' %}class="blog-card alt"{% endif %}>
+        <div class="meta">
+          <div class="photo" style='background-image: url("{{ item.p.photo }}")'></div>
+          <ul class="details">
+            <li class="author">{{ item.p.author }}</li>
+            <li class="date">{{ item.p.date }}</li>
+            <li class="tags">
+            {% for inneritem in item.p.tags %}
+              <ul style="display: inline;">
+                <li><a href="{{item.p.link}}">{{inneritem.value}}</a></li>
+              </ul>
+            {% endfor %}
+            </li>
+          </ul>
+        </div>
+        <div class="description">
+          <h1>{{item.p.title}}</h1>
+          <h2>{{item.p.tag_line}}</h2>
+          <p>{{item.p.preview}}</p>
+          <p class="read-more">
+            <a href="{{item.p.link}}">Read More</a>
+          </p>
+        </div>
+</div>
+{% endfor %}

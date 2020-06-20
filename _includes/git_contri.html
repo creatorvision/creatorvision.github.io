@@ -12,12 +12,9 @@
 
 <script>
   GitHubCalendar(".calendar", "creatorvision", { responsive: true });
-  window.onload = (event) => {
-    var rel = document.getElementById("user-activity-overview");
-    removeElement(rel)
-    function removeElement(elementId) {
-      var element = elementId;
-      element.parentNode.removeChild(element);
-    }
-  }
 </script>
+<style>
+#user-activity-overview{
+  display: none;
+}
+</style>

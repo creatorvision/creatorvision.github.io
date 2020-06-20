@@ -1,25 +1,59 @@
+<script type="text/javascript" src="/assets/js/onLoad.js"></script>
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
 <div class="row-padding">
     <div class="cont">
-        <p>Shivang Gupta, a strong believer of simplicity is the key, quantitative approach with
-         empathy for the end consumer can help in solving the problem/ building an obsessive product.
-        </br> </br>Building the BI function in the MENA region's largest and fastest-growing multi-billion dollar 
-         e-commerce noon.com, which is backed by Mohamed Alabbar ( Founder and chairman of Emaar properties)
-        and PIF (The Public Investment Fund is the sovereign wealth fund of Saudi Arabia.)</p>
+        <main class="about">
+            <img src="../assets/images/IMG_20170626_012525.jpg">
+            <div class="description">
+                <h2>Curious kid in the world of unpredictability</h2>
+                <p>Born and raised in Jaipur, the pink city of India. Computer science engineer by degree and problem solver by passion.<br/></br>
+                Like writing about theories and hypothesis about norms of society and human behaviour, also obviously about technology, coding, solutions for business problems and small hacks of life. India is my faviorate 
+                place as I feel it has areas for all kind of emotions and moods, want to explore it as much as possible, getting into the wilds and dims of this dream country.
+                <br></br> Want to know more or connect / collaborate please contact me <a href="mailto:creatorvision03@gmail.com">@shivang</a>
+                </p>
+            </div>
+        </main> 
     </div>
 
-    <div class="cont">
-        <div> {% include git_contri.html %}</div>
+    <div class="cont" style="display: flex"> 
+        <div class="LI-profile-badge" data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal"
+            data-theme="light" data-vanity="shiv0304"><a class="LI-simple-link"
+                href='https://ae.linkedin.com/in/shiv0304?trk=profile-badge' target="_blank">Shivang Gupta</a></div>
+        <div class='git' > {% include git_contri.html %}</div>
     </div>
 </div>
 
 <style>
-.row-padding{
-    display: inline-table;
-    flex-direction: inherit;
-}
-.cont{
-    width: 90%;
-    margin: 3.5%;
-}
+    .row-padding {
+        display: inline-table;
+        flex-direction: inherit;
+    }
+
+    .cont {
+        width: 92%;
+        margin: 1.5%;
+    }
+    .git{
+        padding: 1%;
+    }
+    .about{
+        display: flex;
+    }
+    .about img{
+        width:30%;
+        height: 25%;
+    }
+    .description{
+        width: 100%;
+        padding:2%;
+    }
+    .description h2{
+        text-align: center;
+    }
+    .description p{
+        padding: 5%;
+        font-family: 'Dancing Script', cursive;
+    }
 </style>

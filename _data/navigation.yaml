@@ -1,14 +1,16 @@
 defaults:
 nav:
   - m:
-      name: Home
-      link: /
+      name: About
+      link: /about
+  - m:
+      name: Blog & Notes
+      link: http://infinitespeak.wordpress.com/
   - m:
       name: Resume
       link: /resume.html
   - m:
-      name: Blog
-      link: http://infinitespeak.wordpress.com/
-  - m:
-      name: About
-      link: /about.html
+      name: Home
+      link: /
+
+

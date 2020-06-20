@@ -36,7 +36,7 @@ h1 {
     font-family:'Oswald';
 }
 p {
-    font-size: 1.5em;
+    font-size: 1.25em;
     line-height: 1.4em;
     color: #333;
 }
@@ -54,3 +54,98 @@ ul.posts li {
     list-style: none;
 }
 
+// HOME CONTAINER
+.me {
+    display: flex;
+    margin: 2em auto;
+    margin-bottom: 1em;
+    width: 125px;
+    height: 140px;
+    border-radius: 50%;
+    position: relative;
+    // z-index: 0;
+}
+.mdef{
+    font-size: 0.9em;
+    display: flex;
+    margin-bottom: 2em;
+    justify-content: center;
+}
+
+.row-padding {
+    display: inline-flex;
+    width: 100%;
+}
+
+.contA {
+    width: 75%;
+    margin: 2.5% 0.1% 2.5% 0.1%;
+    height: 70%;
+    overflow: auto;
+}
+
+.contB {
+    width: 25%;
+    margin: 2.5% 0.1% 2.5% 0.1%;
+}
+
+.LI-profile-badge {
+    margin: 1rem auto;
+}
+.pet{
+    display: inherit;
+}
+
+// SOCIAL CONNECT
+.social-body,
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-btn {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    background: white;
+    margin: 2px;
+    transition: 1s;
+}
+
+.social-btn span {
+    width: 0px;
+    overflow: hidden;
+    transition: 1s;
+    text-align: center;
+}
+
+.social-btn:hover {
+    width: 150px;
+    border-radius: 5px;
+}
+
+.social-btn:hover span {
+    padding: 2px;
+    width: max-content;
+}
+
+#twitter svg {
+    fill: #1da1f2;
+}
+
+#linkedin svg {
+    fill: #0e76a8;
+}
+
+#github {
+    fill: #333;
+}

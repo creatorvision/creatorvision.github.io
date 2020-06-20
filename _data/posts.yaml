@@ -1,0 +1,30 @@
+defaults:
+post:
+  - p:
+      title: '#Include WHY_and_WHAT'
+      tag_line: How working with busienss imporves your tech skills 
+      link: /2020/05/12/tech-to-business
+      type: 'odd'
+      date: 2020/05/12
+      rank: 1
+      preview:  '... I shifted my mindset form "HOW" to "WHY" and later to "WHAT", working with business you learn the art of delivery, 
+      prioritization and impact creation and evaluation ...'
+      photo: 'https://www.clicdata.com/wp-content/uploads/2018/08/10.jpg'
+      author: 'Shivang Gupta'
+      tags: 
+        - value: 'KPI'
+        - value: 'E-COMMERCE'
+        - value: 'SDE'
+  - p:
+      title: Be A Catalyst Not Just Analyst
+      tag_line: Creating sustainable impact
+      link: /2020/05/12/be-a-catalyst-not-just-analyst
+      type: 'even'
+      date: 2020/05/12
+      rank: 2
+      preview: 'Analysts are the back bone of the business in the world where data is the new oil !!'
+      photo: 'https://www.biotage.com/uploads/photos/2013_web_banners5.jpg'
+      author: 'Shivang Gupta'
+      tags:
+        - value: 'CATALYST'
+        - value: 'ANALYST'
