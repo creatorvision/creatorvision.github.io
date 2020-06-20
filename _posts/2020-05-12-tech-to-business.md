@@ -24,7 +24,7 @@ The benefits of working close to business and empowering business actions help y
     <div class="image1"><img src="../../../../assets/images/theHappinessCycle.png"><p><br/><br/><i>The Happiness Cycle</i></p></div>
     <ol>
       <li>Working on diverse problem statements</li>
-      <li>Go beyond the world of stackoverflow and solve problems on whiteboard , understanding the biases, weirdness and unpredictability of the world</li>
+      <li>Go beyond the world of stackoverflow and solve problems on whiteboard , understanding the  biases, weirdness and unpredictability of the world</li>
       <li>Use your technical skills to build and make business actions robust and accountable</li>
       <li>Help business work on hard problems by automatizing redundant manual work </li>
       <li>Increase your perspective , go beyond the 15 inch screen to 360 degree world</li>
@@ -33,6 +33,7 @@ The benefits of working close to business and empowering business actions help y
     <p>The crux is just don’t write code to solve some predefined problem statements or just do a task because it's your job, the happiness of coding multifolds when you start exploring the whys and whats of your work, it helps you understand the worthiness , purpose and profound uses of your code. It helps you to see the magic that few lines can create in someone’s life. And the better you know the motivation and purpose the better you work and thus the better you will feel.Believe me sometimes a few lines of code can bring a smile on some random people’s face, whose life is uncomplicated by your solution :) 
     </p>
   </article>
+  <!-- <div>You can find me on Medium too - </div> -->
 </main>
 
 <!-- Personalization of the background Image -->
