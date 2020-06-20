@@ -2,7 +2,7 @@
 layout: post
 title: "#Include WHY_and_WHAT"
 author: "Shivang Gupta"
-date: 2020-05-12
+date: 2020-06-21
 ---
 
 <!-- Other stuff -->
@@ -30,7 +30,7 @@ The benefits of working close to business and empowering business actions help y
       <li>Increase your perspective , go beyond the 15 inch screen to 360 degree world</li>
     </ol>
     <br/>
-    <p>The crux is just don’t write code to solve some predefined problem statements or just do a task because it's your job, the happiness of coding multifolds when you start exploring the whys and whats of your work, it helps you understand the worthiness , purpose and profound uses of your code. It helps you to see the magic that few lines can create in someone’s life. And the better you know the motivation and purpose the better you work and thus the better you will feel.Believe me sometimes a few lines of code can bring a smile on some random people’s face, whose life is uncomplicated by your solution :) 
+    <p>The crux is just don’t write code to solve some predefined problem statements or just do a task because it's your job, the happiness of coding multifolds when you start exploring the whys and whats of your work, it helps you understand the worthiness , purpose and profound uses of your code. It helps you to see the magic that few lines can create in someone’s life. And the better you know the motivation and purpose the better you work and thus the better you will feel. Believe me sometimes a few lines of code can bring a smile on some random people’s face, whose life is uncomplicated by your solution :) 
     </p>
   </article>
   <!-- <div>You can find me on Medium too - </div> -->
