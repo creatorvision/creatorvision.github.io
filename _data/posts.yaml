@@ -2,7 +2,7 @@ defaults:
 post:
   - p:
       title: '#Include WHY_and_WHAT'
-      tag_line: How working with busienss imporves your tech skills 
+      tag_line: How working with busienss imporves your problem solving skills 
       link: /2020/05/12/tech-to-business
       type: 'odd'
       date: 2020/05/12
