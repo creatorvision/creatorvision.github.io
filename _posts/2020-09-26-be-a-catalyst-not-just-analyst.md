@@ -9,7 +9,7 @@ date: 2020-09-26
 <main>
   <article>
     <h2>Analysts are the back bone of the business in the world where data is the new oil !!</h2>
-    <p>
+    <p> Still in thoughts ... Come back soon for this exciting article
     </p>
   </article>
 </main>
