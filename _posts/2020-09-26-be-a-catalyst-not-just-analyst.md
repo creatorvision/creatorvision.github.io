@@ -10,6 +10,8 @@ date: 2020-09-26
   <article>
     <h2>Analysts are the back bone of the business in the world where data is the new oil !!</h2>
     <p> Still in thoughts ... Come back soon for this exciting article
+    What do you understand by the term Analyst ?
+    A person who looks on the business requirement from a data and factual point of view with a mix of gut feeling and experience ( but swad anusar ) and help the business stakeholders and 
     </p>
   </article>
 </main>
