@@ -1,10 +1,8 @@
 name: Shivang Gupta
 markdown: kramdown
 exclude:
+  - tmp/
   - Gemfile
   - Gemfile.lock
   - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - vendor/
