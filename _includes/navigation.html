@@ -2,7 +2,7 @@
     <ul>
         {% for item in site.data.navigation.nav %}
             <li class="purnav">
-                <a href="{{ item.m.link }}" {% if page.url == item.m.link %}style="color: #009970";"{% endif %}> {{ item.m.name }}</a> 
+                <a href="{{ item.m.link }}" {% if page.url == item.m.link %}style="color: #009970";{% endif %}> {{ item.m.name }}</a> 
             </li>
         {% endfor %}
         <a href="/"><li class ="name">SHIVANG GUPTA</li></a>
